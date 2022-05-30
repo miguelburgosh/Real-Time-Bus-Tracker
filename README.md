@@ -20,8 +20,8 @@ Once you cloned the project please open the index.html file on a web browser.
 
 ## :motorway: Roadmap of future improvements
 
-- Erase the recent icon position of eachs bus.
-- Add PopUp info about the ID of each bus.
+- Erase the recent icon position for each bus.
+- Add PopUp info about the ID for each bus.
 
 ## :memo: License
 
