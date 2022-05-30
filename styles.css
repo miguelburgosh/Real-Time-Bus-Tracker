@@ -1,29 +1,81 @@
+.parent {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: #fff;
+  opacity: 0.8;
+  height: 100px;
+  z-index: 2;
+}
+
+.div1 h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  vertical-align: auto;
+  color: dimgray;
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+.div2 {
+  grid-area: 2 / 1 / 3 / 2;
+
+}
+
+.div3 {
+  grid-area: 3 / 1 / 4 / 2;
+  grid-area: 3 / 1 / 4 / 4;
+  background-color: #fff;
+  opacity: 0.8;
+  height: 100px;
+  margin-top: auto;
+}
+
+.div3 h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  vertical-align: auto;
+  color: dimgray;
+  margin-top: 40px;
+}
+
 body {
-    margin: 0;
-    padding: 0;
-  }
-  #map {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-  .marker {
-    background-image: url('red.png');
-    background-size: cover;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    cursor: pointer;
-  }
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
 
-  .marker2 {
-    background-image: url('blue.png');
-    background-size: cover;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    cursor: pointer;
-  }
+.marker {
+  background-image: url("red.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.marker2 {
+  background-image: url("blue.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
   
